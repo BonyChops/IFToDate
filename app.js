@@ -19,7 +19,7 @@ const IFToDate = (dateSt) => {
     return new Date(dateStNew);
 }
 
-const date = 'May 28, 2020 at 10:47AM'; //From IFTTT time stamp...
+const dateSt = 'May 28, 2020 at 10:47AM'; //From IFTTT time stamp...
 console.log(date);
-const todoDate = IFToDate(date);
-console.log(todoDate.toLocaleString());
+const dateObj = IFToDate(date);
+console.log(dateObj.toLocaleString());
